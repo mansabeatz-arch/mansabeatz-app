@@ -1,0 +1,176 @@
+
+    <div id="app">
+        <header class="app-header">
+            <div class="logo">
+                <h1>MANSBEATZ</h1>
+                <p>All-In Music Studio</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li class="active"><a href="#studio">Studio</a></li>
+                    <li><a href="#lessons">Lessons</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <section id="studio" class="studio-section active">
+                <div class="mpc-container">
+                    <div class="mpc-interface">
+                        <div class="mpc-screen">
+                            <div class="screen-content">
+                                <div class="program-info">
+                                    <div class="program-name">MAIN</div>
+                                    <div class="tempo">120.0</div>
+                                    <div class="bar">1.1.1</div>
+                                </div>
+                                <div class="waveform-display"></div>
+                                <div class="track-info">
+                                    <div class="track-name">Track 1</div>
+                                    <div class="track-level">-6.2dB</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mpc-controls">
+                            <div class="transport-controls">
+                                <button id="play-btn" class="transport-btn">PLAY</button>
+                                <button id="stop-btn" class="transport-btn">STOP</button>
+                                <button id="rec-btn" class="transport-btn">REC</button>
+                                <button id="overdub-btn" class="transport-btn">OVERDUB</button>
+                            </div>
+
+                            <div class="mode-buttons">
+                                <button class="mode-btn active">PROGRAM</button>
+                                <button class="mode-btn">SONG</button>
+                                <button class="mode-btn">TRIM</button>
+                                <button class="mode-btn">EDIT</button>
+                            </div>
+
+                            <div class="data-wheel-container">
+                                <div id="data-wheel" class="data-wheel">
+                                    <div class="wheel-center"></div>
+                                </div>
+                            </div>
+
+                            <div class="function-keys">
+                                <button class="func-key">F1</button>
+                                <button class="func-key">F2</button>
+                                <button class="func-key">F3</button>
+                                <button class="func-key">F4</button>
+                                <button class="func-key">F5</button>
+                                <button class="func-key">F6</button>
+                            </div>
+                        </div>
+
+                        <div class="pad-bank">
+                            <div class="pad-row">
+                                <button class="drum-pad" data-pad="1">1</button>
+                                <button class="drum-pad" data-pad="2">2</button>
+                                <button class="drum-pad" data-pad="3">3</button>
+                                <button class="drum-pad" data-pad="4">4</button>
+                            </div>
+                            <div class="pad-row">
+                                <button class="drum-pad" data-pad="5">5</button>
+                                <button class="drum-pad" data-pad="6">6</button>
+                                <button class="drum-pad" data-pad="7">7</button>
+                                <button class="drum-pad" data-pad="8">8</button>
+                            </div>
+                            <div class="pad-row">
+                                <button class="drum-pad" data-pad="9">9</button>
+                                <button class="drum-pad" data-pad="10">10</button>
+                                <button class="drum-pad" data-pad="11">11</button>
+                                <button class="drum-pad" data-pad="12">12</button>
+                            </div>
+                            <div class="pad-row">
+                                <button class="drum-pad" data-pad="13">13</button>
+                                <button class="drum-pad" data-pad="14">14</button>
+                                <button class="drum-pad" data-pad="15">15</button>
+                                <button class="drum-pad" data-pad="16">16</button>
+                            </div>
+                        </div>
+
+                        <div class="q-links">
+                            <div class="q-link-slider" data-param="filter">
+                                <label>FILTER</label>
+                                <input type="range" min="0" max="100" value="50">
+                            </div>
+                            <div class="q-link-slider" data-param="attack">
+                                <label>ATTACK</label>
+                                <input type="range" min="0" max="100" value="20">
+                            </div>
+                            <div class="q-link-slider" data-param="decay">
+                                <label>DECAY</label>
+                                <input type="range" min="0" max="100" value="30">
+                            </div>
+                            <div class="q-link-slider" data-param="sustain">
+                                <label>SUSTAIN</label>
+                                <input type="range" min="0" max="100" value="40">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="studio-tools">
+                    <div class="tool-panel">
+                        <h3>SOUND LIBRARY</h3>
+                        <div class="sound-browser">
+                            <div class="genre-selector">
+                                <button class="genre-btn active">Hip-Hop</button>
+                                <button class="genre-btn">Reggae</button>
+                                <button class="genre-btn">Dancehall</button>
+                                <button class="genre-btn">90's R&amp;B</button>
+                                <button class="genre-btn">New Jack Swing</button>
+                                <button class="genre-btn">Rock</button>
+                            </div>
+                            <div class="sound-list">
+                                <div class="sound-item">808 Bass</div>
+                                <div class="sound-item">909 Kick</div>
+                                <div class="sound-item">Clap</div>
+                                <div class="sound-item">Snare</div>
+                                <div class="sound-item">Hi-Hat</div>
+                                <div class="sound-item">Open Hat</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-panel">
+                        <h3>LESSONS</h3>
+                        <div class="lesson-browser">
+                            <div class="lesson-category">
+                                <button class="category-btn active">Beat Making</button>
+                                <button class="category-btn">Sampling</button>
+                                <button class="category-btn">Mixing</button>
+                                <button class="category-btn">Mastering</button>
+                            </div>
+                            <div class="lesson-list">
+                                <div class="lesson-item">Basic Drum Programming</div>
+                                <div class="lesson-item">Swing &amp; Groove</div>
+                                <div class="lesson-item">Chopping Techniques</div>
+                                <div class="lesson-item">EQ Fundamentals</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="lessons" class="lessons-section">
+                <div class="lesson-content">
+                    <h2>Music Production Lessons</h2>
+                    <div class="lesson-categories">
+                        <div class="category-card">
+                            <h3>Beat Making</h3>
+                            <ul>
+                                <li>Drum Programming Basics</li>
+                                <li>Genre-Specific Patterns</li>
+                                <li>Swing &amp; Groove</li>
+                                <li>Advanced Techniques</li>
+                            </ul>
+                        </div>
+                        <div class="category-card">
+                            <h3>Sampling</h3>
+                            <ul>
+                                <li>Sample Sourcing</li>
+                                &lt;</ul></div></div></div></section></main></div>

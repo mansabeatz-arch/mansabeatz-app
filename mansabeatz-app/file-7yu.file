@@ -1,0 +1,23 @@
+mansbeatz-app/
+├── index.html
+├── css/
+│   ├── styles.css
+│   └── mpc-interface.css
+├── js/
+│   ├── app.js
+│   ├── mpc-controller.js
+│   ├── audio-engine.js
+│   └── lessons.js
+├── assets/
+│   ├── sounds/
+│   │   ├── drums/
+│   │   ├── instruments/
+│   │   └── samples/
+│   ├── images/
+│   │   ├── mpc-interface/
+│   │   ├── icons/
+│   │   └── backgrounds/
+│   └── fonts/
+└── data/
+    ├── lessons/
+    └── presets/

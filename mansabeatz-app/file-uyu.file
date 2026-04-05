@@ -1,0 +1,14 @@
+mansbeatz-app/
+├── index.html (main entry point)
+├── css/
+│   └── styles.css
+├── js/
+│   ├── app.js
+│   ├── mpc-controller.js
+│   └── audio-engine.js
+├── assets/
+│   ├── sounds/
+│   ├── images/
+│   └── samples/
+└── config/
+    └── settings.json

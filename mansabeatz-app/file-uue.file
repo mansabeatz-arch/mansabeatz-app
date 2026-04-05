@@ -1,0 +1,5 @@
+mansbeatz-app/
+├── index.html (your main page)
+├── style.css (your styles)
+├── script.js (your functionality)
+└── assets/ (images, sounds, etc.)
