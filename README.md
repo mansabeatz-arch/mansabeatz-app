@@ -1,4 +1,4 @@
-# Mansabeatz App
+# mansabeatz App
 
 Welcome to the Mansabeatz App! This is a modern web application built with HTML, CSS, and JavaScript.
 
